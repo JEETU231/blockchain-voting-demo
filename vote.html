@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">Campus Election</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="vote.html" class="active">Vote</a></li>
+        <li><a href="candidates.html">Candidates</a></li>
+        <li><a href="results.html">Results</a></li>
+    </ul>
+</nav>
+
+<section class="main">
+    <div class="left-panel">
+        <div class="card">
+            <h2>Cast Your Vote</h2>
+            <select id="voteCandidate">
+                <option value="">Select Candidate</option>
+                <option value="John Doe">John Doe</option>
+                <option value="Jane Smith">Jane Smith</option>
+                <option value="Rahul Verma">Rahul Verma</option>
+            </select>
+            <button onclick="submitVote()">Submit Vote</button>
+        </div>
+    </div>
+
+    <div class="right-panel">
+        <h3>Instructions</h3>
+        <p>Select your preferred candidate and submit your vote.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Campus Election System
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
